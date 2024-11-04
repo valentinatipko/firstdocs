@@ -29,7 +29,7 @@ theme:
         #icon: material/weather-sunny # Иконка для активации светлой темы
         #name: Выключить солнышко # Всплывающий текст-подсказка
       primary: light blue # Основной цвет
-      accent: deep orange # Акцентный цвет
+      accent: yellow # Акцентный цвет
     # Настройки тёмной темы
     - scheme: slate
       toggle:
