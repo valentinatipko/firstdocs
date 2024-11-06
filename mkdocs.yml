@@ -1,4 +1,4 @@
-site_name: Портфолио с примерами работ
+site_name: Валентина Типко, технический писатель
 site_description: Portfolio with examples of work 
 theme: 
   name: material 
@@ -24,19 +24,21 @@ theme:
   language: ru # Язык
   palette: # Настройки светлой и тёмной тем
     # Настройки светлой темы
-    - scheme: default 
+
+    - scheme: default
       toggle:
-        icon: material/weather-sunny # Иконка для активации светлой темы
-        name: Выключить солнышко # Всплывающий текст-подсказка
+        #icon: material/weather-sunny # Иконка для активации светлой темы
+        #name: Выключить солнышко # Всплывающий текст-подсказка
       primary: light blue # Основной цвет
-      accent: deep orange # Акцентный цвет
+      accent: yellow # Акцентный цвет
     # Настройки тёмной темы
     - scheme: slate
       toggle:
-        icon: material/weather-night
-        name: Позвать солнышко
+        #icon: material/weather-night
+        #name: Позвать солнышко
       primary: deep purple
       accent: yellow
+    #
 
 nav: # Структура сайта
     - Главная страница: index.md
@@ -53,6 +55,7 @@ extra:
 
 markdown_extensions: # Расширения markdown
   - admonition # Поддержка информационных панелей (сообщений типа «Внимание», «Совет», «Примечание», etc.)
+  - tables
   - footnotes # Поддержка встроенных сносок на страницах
   - attr_list # Использование html-атрибутов и CSS в элементах markdown
   - md_in_html # Поддержка markdown внутри html
